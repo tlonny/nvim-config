@@ -1,0 +1,9 @@
+require("util/mappings").load_mappings({
+    require("mappings/nvimtree"),
+    require("mappings/windows"),
+    require("mappings/buffers"),
+    require("mappings/misc"),
+    require("mappings/quickfix"),
+    require("mappings/telescope"),
+    require("mappings/lsp"),
+})
