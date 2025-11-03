@@ -6,6 +6,11 @@ return {
     },
     opts = {
         automatic_enable = true,
-        ensure_installed = { "lua_ls", "ts_ls", "jdtls" }
+        ensure_installed = {
+            "lua_ls",
+            "ts_ls",
+            "jdtls",
+            "eslint"
+        }
     }
 }
