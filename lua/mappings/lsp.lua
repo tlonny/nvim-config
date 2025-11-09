@@ -6,5 +6,6 @@ return {
     { "n", "<Leader>lr", vim.lsp.buf.rename, "Rename" },
     { "n", "<Leader>la", vim.lsp.buf.code_action, "Code actions" },
     { "n", "<Leader>lh", vim.lsp.buf.hover, "Hover" },
+    { "n", "<Leader>lx", vim.diagnostic.open_float, "Diagnostics" }
 }
 

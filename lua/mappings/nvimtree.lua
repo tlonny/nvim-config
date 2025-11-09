@@ -4,13 +4,13 @@ local function toggle()
         if api.tree.is_tree_buf(0) then
             api.tree.close()
         else
-            api.tree.focus()
+            api.tree.find_file({ focus = true })
         end
     else
-        api.tree.open()
+        api.tree.find_file({ open = true, focus = true })
     end
 end
 
 return {
-    { "n", "<Leader>e", toggle, "Toggle NvimTree" }
+    { "n", "<Leader>e", toggle, "Toggle NvimTreeFindFile" }
 }

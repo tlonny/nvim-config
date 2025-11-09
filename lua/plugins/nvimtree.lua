@@ -3,6 +3,7 @@ return {
     config = true,
     lazy = true,
     opts = {
+        view = { adaptive_size = true },
         filters = {
             custom = { ".DS_Store" },
         }
