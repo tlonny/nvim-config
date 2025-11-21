@@ -8,7 +8,7 @@ return {
         automatic_enable = true,
         ensure_installed = {
             "lua_ls",
-            "ts_ls",
+            "vtsls",
             "jdtls",
             "eslint"
         }
